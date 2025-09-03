@@ -11,44 +11,75 @@
     />
     <style>
       body{
-        background-color: darkgray;
+        background-color:white;
+      }
+      nav{
+        background-color: rgb(88, 88, 243);
+        padding-top: 0;
+      }
+      .container-fluid{
+        background-color: rgb(74, 137, 231);
+        margin-top: 0%;
+      }
+      h1{
+        margin-top: 0;
+        padding: 0;
+        font-size: 34px;
+        font-family: 'Times New Roman', Times, serif;
+       
+      }
+      h2{
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+      }
+      p{
+        font-size: 24px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
     </style>
   </head>
   <body>
     
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-8 bg-primary text-white p-3">NAJJINDA HAIRAT</div>
-        <div class="col-md-4 bg-primary text-white p-3">MY POTIFOLIO</div>
-      </div>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">MySite</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="about-me.html">About</a></li>
+ 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light m-0 p-0">
+  <div class="container-fluid"bg-primary>
+ <img src="2-removebg-preview.png" class="img-fluid" style="width: 200px; height: 150px; "alt="logo">
+    
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about-me.html">About me</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="projects.html">Projects</a></li>
+            <li><a class="dropdown-item" href="cv.html">CV</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="contact.html">Contacts</a></li>
           </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container text-center mt-5">
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="container-fluid text-center mt-0 pt-0 mb-0">
       <h1 class="display-4">Welcome to My Potifolio Site</h1>
-      <p class="lead">This is my Potifolio</p>
+     
     </div>
 </div>
     </div>
-    <div class="container mt-5">
+    <div class="container mt-0">
   <div class="row align-items-center">
     <div class="col-md-4">
       <img src="WhatsApp Image 2025-08-28 at 19.13.38_870279ee.jpg" class="img-fluid rounded" alt="My Photo">
@@ -56,12 +87,12 @@
     <div class="col-md-8">
       <h2>Hello, I'm NAJJINDA HAIRAT</h2>
       <p>
-        I'm a passionate web developer, Graphic designer with a focus on creating responsive and user-friendly websites and attractive designs. I love building clean, simple designs and bringing ideas to life through code.
+        I'm a passionate web developer, Graphic designer with a focus on creating responsive and user-friendly websites and attractive designs. I love building clean, simple designs and bringing ideas to life through code.I am a front end developer and specialised in <b>HTML, CSS, Bootstrap, Python</b>and in Graphic designing am a specialist in <b>Canva</b>
       </p>
     </div>
   </div>
 </div>
-<footer class="bg-dark text-white text-center py-3 mt-5">
+<footer class="bg-primary text-white text-center py-3 mt-5">
   <p>&copy; 2025 Najjinda Hairat. All rights reserved.</p>
 </footer>
 
